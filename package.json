@@ -2,7 +2,13 @@
   "name": "crypgo_project",
   "version": "0.1.0",
   "private": true,
+  "description": "A React Js project with Tailwind CSS and TypeScript",
+  "license": "MIT",
+  "author": "silicaman",
+  "repository": "https://github.com/manish-npx/chefs-kitchen",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
